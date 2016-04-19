@@ -59,6 +59,13 @@ Requires:    pyb  module;  stm  module.
    - Custom LCD characters
    - Serial in / out from character display
    - READ from character display
+   - 
+
+### FURTHER READING:
+   - 'How to Use Intelligent L.C.D.s' by Julyan Ilett, "Constructional Feature".  
+   - (http://lcd-linux.sourceforge.net/pdfdocs/lcd1.pdf)
+   - Datasheet: LCM Module TC2004A-01
+   - (https://cdn-shop.adafruit.com/datasheets/TC2004A-01.pdf)
 
 ###KNOWN ISSUES:  
    - (Minor) clear_display() and reset_display() do not show consistent
