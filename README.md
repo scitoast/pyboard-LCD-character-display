@@ -4,11 +4,11 @@
 This project includes a python module with heavily commented code, meant for hobbyists to use and modify,  as well as a Fritzing circuit diagram and photograph of the end result.  This should allow you to attach a character display screen to your PyBoard very easily. 
 
 Required:  
-- Pyboard 1.1 with micro-SD card 
-- Standard sized breadboard
-- Wires
-- Mini breadboard-mount potentiometer
-- Some knowledge of Python.
+   - Pyboard 1.1 with micro-SD card 
+   - Standard sized breadboard
+   - Wires
+   - Mini breadboard-mount potentiometer
+   - Some knowledge of Python.
 
 ## CHAR_LCD.py   
 CHAR_LCD.py is a module for micropython (meant for the PyBoard v1.0 or 1.1) meant to allow easy use of LCD character displays of the standard parallel-in type (viz, Hitachi HD44780 or compatible character display chipsets).  
