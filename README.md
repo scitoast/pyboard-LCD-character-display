@@ -20,48 +20,47 @@ Tested on PyBoard v1.1  running micropython.
 
 
 TESTED LCDs:
-    - Generic 16x2 green character display
-    - Adafruit standard 20x4 blue character LCD 
+   - Generic 16x2 green character display
+   - Adafruit standard 20x4 blue character LCD 
  
  Compatibility:
-    - Any LCD chipset compatible with the Hitachi HDD44780
+   - Any LCD chipset compatible with the Hitachi HDD44780
 
 
-  This module should give you a pretty self-contained
-  set of functions for writing text to a character LCD
- display of the standard 8-bit-parallel input kind.  
+This module should give you a pretty self-contained
+set of functions for writing text to a character LCD
+display of the standard 8-bit-parallel input kind.  
 
- This is a library of functions.  Not a class.  It would be 
- unnecessary to make this a class, and would complexify 
- the usage for hobbyists.
+This is a library of functions.  Not a class.  It would be 
+unnecessary to make this a class, and would complexify 
+the usage for hobbyists.
  
-  This library ASSUMES you are using PyBoard pins  X1-X8  to
-  communicate to the LCD display. 
+This library ASSUMES you are using PyBoard pins  X1-X8  to
+communicate to the LCD display. 
 
 
-  Requires:    pyb  module;  stm  module.
+Requires:    pyb  module;  stm  module.
 
 ###Features Implemented:
--CLEAR / RESET the display
--multiple sizes (e.g. 16x2  or 20x4)
--user specified command & latch pins
--change to command mode or input mode
--LOCATE cursor anywhere on the screen.
--WRITE an ASCII character
--WRITE a string
--WRITE a full line of text
+   -CLEAR / RESET the display
+   -multiple sizes (e.g. 16x2  or 20x4)
+   -user specified command & latch pins
+   -change to command mode or input mode
+   -LOCATE cursor anywhere on the screen.
+   -WRITE an ASCII character
+   -WRITE a string
+   -WRITE a full line of text
 
 ###Not Implemented:  
--Scrolling 
--Changing the text viewport in memory
--Custom LCD characters
--Serial in / out from character display
--READ from character display
+   -Scrolling 
+   -Changing the text viewport in memory
+   -Custom LCD characters
+   -Serial in / out from character display
+   -READ from character display
 
-###KNOWN ISSUES:
-- (Minor) clear_display() and reset_display() do not show consistent
+###KNOWN ISSUES:  
+   - (Minor) clear_display() and reset_display() do not show consistent
   behavior for all displays.
-
    - (Minor) Sometimes you must call reset_display() twice  (in a row)
    to get the desired behavio
 
