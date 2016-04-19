@@ -42,21 +42,21 @@ communicate to the LCD display.
 Requires:    pyb  module;  stm  module.
 
 ###Features Implemented:
-   -CLEAR / RESET the display
-   -multiple sizes (e.g. 16x2  or 20x4)
-   -user specified command & latch pins
-   -change to command mode or input mode
-   -LOCATE cursor anywhere on the screen.
-   -WRITE an ASCII character
-   -WRITE a string
-   -WRITE a full line of text
+   - CLEAR / RESET the display
+   - multiple sizes (e.g. 16x2  or 20x4)
+   - user specified command & latch pins
+   - change to command mode or input mode
+   - LOCATE cursor anywhere on the screen.
+   - WRITE an ASCII character
+   - WRITE a string
+   - WRITE a full line of text
 
 ###Not Implemented:  
-   -Scrolling 
-   -Changing the text viewport in memory
-   -Custom LCD characters
-   -Serial in / out from character display
-   -READ from character display
+   - Scrolling 
+   - Changing the text viewport in memory
+   - Custom LCD characters
+   - Serial in / out from character display
+   - READ from character display
 
 ###KNOWN ISSUES:  
    - (Minor) clear_display() and reset_display() do not show consistent
