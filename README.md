@@ -10,7 +10,7 @@ Required:
    - Mini breadboard-mount potentiometer
    - Some knowledge of Python.
 
-[connections]:https://github.com/scitoast/pyboard-LCD-character-display/blob/master/PYBOARD_20x4_DISPLAY_SCHEM_bb.png
+(https://github.com/scitoast/pyboard-LCD-character-display/blob/master/PYBOARD_20x4_DISPLAY_SCHEM_bb.png)
 
 ## CHAR_LCD.py   
 CHAR_LCD.py is a module for micropython (meant for the PyBoard v1.0 or 1.1) meant to allow easy use of LCD character displays of the standard parallel-in type (viz, Hitachi HD44780 or compatible character display chipsets).  
