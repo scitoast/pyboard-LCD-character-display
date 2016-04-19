@@ -1,5 +1,5 @@
 # Example code to display a message:
-# You can include this in main.py  or just type it from a REPL prompt.
+### You can include this in main.py  or just type it from a REPL prompt.
 
 ```python
 import CHAR_LCD as lcd
