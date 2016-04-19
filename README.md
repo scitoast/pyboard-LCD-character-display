@@ -62,7 +62,7 @@ Requires:    pyb  module;  stm  module.
    - (Minor) clear_display() and reset_display() do not show consistent
   behavior for all displays.
    - (Minor) Sometimes you must call reset_display() twice  (in a row)
-   to get the desired behavio
+   to get the desired behavior.
 
 ### For more information read the code comments.  
 The code for CHAR_LCD.py is pretty heavily commented because this project is meant for hobbyists just starting out with PyBoard!
